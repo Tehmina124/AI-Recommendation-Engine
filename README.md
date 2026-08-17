@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./AI RECOMMANDATION.png" width="100%" alt="AI RECOMMANDATION ">
+  <img src="./AI RECOMMANDATION" width="100%" alt="AI RECOMMANDATION ">
 </p>
 
-<h1 align="center">🤖 AI RECOMMANDATION </h1>
+<h1 align="center">🤖 AI RECOMMANDATION ENGINE </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
