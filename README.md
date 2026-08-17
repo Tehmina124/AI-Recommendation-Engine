@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./AI RECOMMANDATION" width="100%" alt="AI RECOMMANDATION ">
+  <img src="./AI RECOMMENDATION.png" width="100%" alt="AI Recommendation Engine Banner">
 </p>
 
 <h1 align="center">🤖 AI RECOMMANDATION ENGINE </h1>
