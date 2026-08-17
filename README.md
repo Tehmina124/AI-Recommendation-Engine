@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./AI RECOMMANDATION.png" width="100%" alt="AI Recommendation Engine Banner">
+  <img src="./AI RECOMMANDATION" width="100%" alt="AI Recommendation Engine Banner">
 </p>
 
 <h1 align="center">🤖 AI Recommendation Engine</h1>
@@ -15,10 +15,6 @@
 
 <p align="center">
   <b>🤖 An AI-powered personalized movie recommendation system built with Python and Streamlit.</b>
-</p>
-
-<p align="center">
-  Developed as part of the <b>InternGrow Internship – Task 4 (Week 4)</b>.
 </p>
 
 <p align="center">
