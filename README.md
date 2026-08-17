@@ -1,5 +1,3 @@
-🤖 AI Recommendation Engine
-
 <p align="center">
   <img src="./AI RECOMMANDATION.png" width="100%" alt="AI Recommendation Engine Banner">
 </p>
