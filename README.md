@@ -144,7 +144,8 @@ It is inspired by recommendation systems used by platforms such as Netflix and A
 
 A Hybrid Recommendation Model combines multiple recommendation approaches to improve personalized results.
 
-```text
+text
+
 🧠 Content-Based Filtering
           +
 🤝 Collaborative Filtering
@@ -152,3 +153,242 @@ A Hybrid Recommendation Model combines multiple recommendation approaches to imp
 🔥 Hybrid Recommendation Model
           ↓
 🎯 Personalized Suggestions
+
+How The Application Works
+👤 User
+   ↓
+📝 Enter Name
+   ↓
+❤️ Select Favorite Genre
+   ↓
+📊 Analyze User Preference
+   ↓
+🎬 Analyze Movie Features
+   ↓
+🔍 Calculate Similarity
+   ↓
+🧠 Recommendation Model
+   ↓
+📈 Calculate Match Scores
+   ↓
+🎯 Rank Recommendations
+   ↓
+🎬 Display Personalized Movies
+👤 User Profile Analysis
+
+The application displays important information about the current user.
+
+Example
+
+👤 User: Tehmina Anwar
+
+❤️ Favorite Genre: Action
+
+🎬 Available Items: 12
+
+🎯 Recommendations: 5
+
+The application also provides a preference profile based on the selected genre.
+
+🚀 Project Features
+👤 User Profile Analysis
+🎬 Movie Recommendation
+🎯 Personalized Suggestions
+🔍 Similar Item Detection
+🤝 Collaborative Filtering
+🧠 Content-Based Filtering
+🔥 Hybrid Recommendation Model
+📜 Recommendation History
+📈 User Preference Analysis
+🧮 Cosine Similarity
+⚡ Interactive Streamlit Dashboard
+📊 Recommendation Match Scores
+🎯 Personalized Results
+
+📂 Project Structure
+AI-Recommendation-Engine/
+│
+├── app.py
+├── requirements.txt
+├── AI RECOMMANDATION.png
+├── screenshots/
+│   ├── Home.png
+│   ├── recommendations.png
+│   ├── similar-items.png
+│   ├── history.png
+│   └── features.png
+│
+└── README.md
+
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Tehmina124/AI-Recommendation-Engine.git
+2️⃣ Open the Project Folder
+cd AI-Recommendation-Engine
+3️⃣ Install Dependencies
+py -3.12 -m pip install -r requirements.txt
+4️⃣ Run the Application
+py -3.12 -m streamlit run app.py
+5️⃣ Open in Browser
+http://localhost:8501
+🌐 Live Demo
+🚀 Try the AI Recommendation Engine:
+
+<a href="https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/"> https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/ </a>
+
+The application is deployed online using Streamlit Community Cloud.
+
+☁️ Deployment
+
+The application deployment workflow:
+
+🐍 Python Development
+        ↓
+🤖 AI Recommendation Engine
+        ↓
+🎈 Streamlit Application
+        ↓
+🐙 GitHub Repository
+        ↓
+☁️ Streamlit Community Cloud
+        ↓
+🌐 Live Web Application
+🎓 Internship Information
+🏢 InternGrow Internship
+
+Project: AI Recommendation Engine
+
+Task: Task 4
+
+Week: Week 4
+
+🎯 Scenario
+
+Build a recommendation system similar to Netflix or Amazon.
+
+Required Features
+👤 User Profile Analysis
+🎬 Product/Movie Recommendation
+🔍 Similar Item Detection
+🎯 Personalized Suggestions
+📜 Recommendation History
+Upgrade Features
+🤝 Collaborative Filtering
+🧠 Content-Based Filtering
+🔥 Hybrid Recommendation Model
+Skills
+Recommendation Systems
+Data Processing
+Machine Learning
+🎯 Project Objectives
+
+The main objectives of this project were:
+
+Build a practical recommendation system.
+Understand recommendation system concepts.
+Analyze user preferences.
+Implement content-based recommendations.
+Implement similar item detection.
+Explore collaborative filtering.
+Understand hybrid recommendation models.
+Use cosine similarity for item comparison.
+Build an interactive Streamlit dashboard.
+Deploy a Python application online.
+Gain practical Machine Learning experience.
+💡 What I Learned
+
+Through this project, I gained practical experience in:
+
+🐍 Python Development
+🤖 Machine Learning
+🧠 Recommendation Systems
+📊 Data Processing
+🔍 Cosine Similarity
+👤 User Profile Analysis
+🎯 Personalized Recommendations
+🤝 Collaborative Filtering
+🧠 Content-Based Filtering
+🔥 Hybrid Recommendation Concepts
+🎈 Streamlit Application Development
+🐙 GitHub Repository Management
+☁️ Streamlit Cloud Deployment
+🧪 Application Testing and Debugging
+
+🔮 Future Improvements
+
+Future versions can include:
+
+🤖 Advanced recommendation algorithms
+👥 Multiple user accounts
+🤝 Advanced Collaborative Filtering
+🔥 Improved Hybrid Recommendation
+🎬 Larger real-world movie datasets
+⭐ Movie ratings
+❤️ Like/Dislike functionality
+📜 Permanent recommendation history
+🗄️ Database integration
+🎬 Movie posters
+🔎 Movie search
+🎯 Advanced personalization
+📊 Recommendation analytics
+☁️ Production-level deployment
+
+## 👩‍💻 About Me
+
+### Tehmina Anwar
+
+**BSAI Student | AI/ML Engineer | Python Developer**
+
+I am a Bachelor of Science in Artificial Intelligence student interested in building practical AI and Machine Learning applications.
+
+### Areas of Interest
+
+🐍 Python
+🤖 Machine Learning
+🧠 Deep Learning
+✨ Generative AI
+🧠 Large Language Models
+🔍 Retrieval-Augmented Generation
+📝 Natural Language Processing
+👁️ Computer Vision
+🚀 AI Application Development
+
+## 🔗 Connect With Me
+
+### 💻 GitHub
+
+<a href="https://github.com/Tehmina124">
+  GitHub Profile
+</a>
+
+### 🔗 LinkedIn
+
+<a href="https://www.linkedin.com/in/tehmina-anwar-77b8a8414/">
+  LinkedIn Profile
+</a>
+
+### 🌐 Portfolio
+
+<a href="https://tehmina-portfolio-five.vercel.app/">
+  Portfolio Website
+</a>
+
+## 🚀 Live Project
+
+<a href="https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/">
+  🤖 AI Recommendation Engine
+</a>
+
+## ⭐ Support
+
+If you found this project useful or interesting, please consider giving the repository a ⭐ **Star** on GitHub.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ using Python and Streamlit</b>
+</p>
+
+<p align="center">
+  © 2026 Tehmina Anwar | CodeAlpha Language Translation Tool
+</p>
