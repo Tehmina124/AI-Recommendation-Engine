@@ -218,9 +218,6 @@ http://localhost:8501
   </a>
 </p>
 
-**Live Application:**
-https://ai-recommendation-engine-lg32mauwnpng3qqy9egxft.streamlit.app/
-
 The application is deployed using **Streamlit Community Cloud**.
 
 ---
@@ -331,7 +328,7 @@ I am a **Bachelor of Science in Artificial Intelligence student** interested in 
 
 ### 🌐 Portfolio
 
-<a href="https://tehmina-portfolio.vercel.app">
+<a href="https://tehmina-portfolio-five.vercel.app/">
   <b>Portfolio Website</b>
 </a>
 
