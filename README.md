@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Streamlit-Framework-red?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
   <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
-  <img src="https://img.shields.io/badge/InternGrow-Internship-purple?style=for-the-badge" alt="InternGrow">
+  <img src="https://img.shields.io/badge/InternGrow%20AI-Internship-purple?style=for-the-badge" alt="InternGrow AI Internship">
 </p>
 
 <p align="center">
@@ -16,46 +16,46 @@
 </p>
 
 <p align="center">
-  Developed as part of the <b>InternGrow Internship | Task 4 - Week 4</b>
+  Developed as part of the <b>InternGrow AI Internship — Task 4</b>
 </p>
 
 <p align="center">
-  <a href="https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/">
+  <a href="https://ai-recommendation-engine-lg32mauwnpng3qqy9egxft.streamlit.app/">
     🚀 <b>View Live Demo</b>
   </a>
 </p>
 
 ---
 
-## 📌 About The Project
+## 📌 About the Project
 
-**AI Recommendation Engine** is a Machine Learning-based movie recommendation system inspired by platforms such as **Netflix** and **Amazon**.
+**AI Recommendation Engine** is a Machine Learning-based movie recommendation application designed to provide personalized movie suggestions based on user preferences and movie characteristics.
 
-The system analyzes user preferences, movie characteristics, genres, and similarity scores to generate **personalized movie recommendations**.
+The system uses recommendation techniques and **Cosine Similarity** to identify relevant and similar movies. Users can select their preferred genre, explore recommendations, and discover similar movies through an interactive **Streamlit** interface.
 
-This project was developed as **Task 4 - Week 4** of the **InternGrow Internship**.
+This project was developed as **Task 4** of the **InternGrow AI Internship**.
 
 ---
 
-## 🎯 Recommendation Approaches
+## 🎯 Recommendation System
 
 ### 🧠 Content-Based Filtering
 
-Recommends movies based on their characteristics and the user's selected preferences.
+Recommends movies based on their characteristics, features, and the user's selected preferences.
 
-### 🤝 Collaborative Filtering
+### 🤝 Collaborative Recommendation
 
-Uses user-item preference concepts to generate relevant recommendations.
+Uses user-preference concepts to generate relevant personalized recommendations.
 
 ### 🔥 Hybrid Recommendation
 
-Combines different recommendation approaches to improve personalized results.
+Combines multiple recommendation approaches to improve the relevance of personalized results.
 
 ### 🔍 Similar Item Detection
 
-Uses **Cosine Similarity** to find movies with similar characteristics.
+Uses **Cosine Similarity** to identify movies with similar feature representations.
 
-### 🎯 Personalized Suggestions
+### 🎯 Personalized Recommendations
 
 Generates movie recommendations according to the user's selected genre and preferences.
 
@@ -63,21 +63,21 @@ Generates movie recommendations according to the user's selected genre and prefe
 
 ## ✨ Key Features
 
-* 👤 **User Profile Analysis**
-* 🎬 **Movie Recommendation**
-* 🧠 **Content-Based Filtering**
-* 🤝 **Collaborative Filtering**
-* 🔥 **Hybrid Recommendation Model**
-* 🔍 **Similar Item Detection**
-* 🎯 **Personalized Recommendations**
-* 📜 **Recommendation History**
-* 📊 **Dataset Explorer**
-* ⚡ **Interactive Streamlit Dashboard**
-* ❤️ **Favorite Genre Selection**
+* 👤 User Profile Analysis
+* 🎬 Personalized Movie Recommendations
+* ❤️ Favorite Genre Selection
+* 🧠 Content-Based Recommendation
+* 🤝 Collaborative Recommendation
+* 🔥 Hybrid Recommendation
+* 🔍 Similar Movie Detection
+* 📊 Cosine Similarity
+* 📜 Recommendation History
+* 📁 Dataset Explorer
+* ⚡ Interactive Streamlit Dashboard
 
 ---
 
-## 🧠 How The Recommendation Engine Works
+## 🧠 How It Works
 
 ```text
 👤 User Profile
@@ -90,11 +90,11 @@ Generates movie recommendations according to the user's selected genre and prefe
         ↓
 🔍 Calculate Similarity
         ↓
-🤝 Apply Recommendation Model
+🤖 Apply Recommendation Logic
         ↓
-🔥 Generate Personalized Results
+🎯 Generate Personalized Results
         ↓
-🎯 Recommended Movies
+🎬 Recommended Movies
 ```
 
 ---
@@ -102,10 +102,8 @@ Generates movie recommendations according to the user's selected genre and prefe
 ## 📊 Example Recommendation
 
 **User:** Tehmina Anwar
-
 **Favorite Genre:** Action
-
-**Recommendations:** 5
+**Number of Recommendations:** 5
 
 | 🎬 Movie               | 🎯 Match Score |
 | ---------------------- | -------------: |
@@ -117,88 +115,51 @@ Generates movie recommendations according to the user's selected genre and prefe
 
 ---
 
-## 🔍 Similar Item Detection
+## 🔍 Similar Movie Detection
 
-Users can select a movie and find other movies with similar characteristics.
+Users can select a movie and discover other movies with similar characteristics.
 
-The system uses **Cosine Similarity** to calculate similarity between movie feature vectors.
-
-### Process
+The system represents movie characteristics as feature vectors and uses **Cosine Similarity** to calculate similarity between movies.
 
 ```text
-🎬 Selected Movie
-        ↓
-📊 Movie Feature Vector
-        ↓
-🔢 Cosine Similarity
-        ↓
-🔍 Compare With Other Movies
-        ↓
-🎯 Similar Movies
+🎬 Select Movie
+      ↓
+📊 Create Feature Representation
+      ↓
+🔢 Calculate Cosine Similarity
+      ↓
+🔍 Compare Movie Features
+      ↓
+🎯 Find Similar Movies
 ```
 
 ---
 
 ## 📜 Recommendation History
 
-Users can save their current recommendations.
+Users can save their generated recommendations.
 
-Saved information includes:
+Saved information can include:
 
-* 👤 **User Name**
-* ❤️ **Favorite Genre**
-* 🎬 **Recommended Movies**
+* 👤 User Name
+* ❤️ Favorite Genre
+* 🎬 Recommended Movies
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Technology                    | Purpose                  |
-| ----------------------------- | ------------------------ |
-| 🐍 **Python**                 | Application Development  |
-| 🎈 **Streamlit**              | Web Interface            |
-| 🐼 **Pandas**                 | Data Processing          |
-| 🔢 **NumPy**                  | Numerical Operations     |
-| 🤖 **Scikit-Learn**           | Machine Learning         |
-| 📊 **Cosine Similarity**      | Similar Item Detection   |
-| 🧠 **Recommendation Systems** | Personalized Suggestions |
-| 🐙 **GitHub**                 | Version Control          |
-| ☁️ **Streamlit Cloud**        | Deployment               |
-
----
-
-## 🧠 Skills Demonstrated
-
-### 🤖 Machine Learning
-
-* Recommendation Systems
-* Content-Based Filtering
-* Collaborative Filtering
-* Hybrid Recommendation
-* Cosine Similarity
-* User Preference Analysis
-* Personalized Recommendations
-
-### 🐍 Python & Data Processing
-
-* Python Programming
-* Pandas
-* NumPy
-* Scikit-Learn
-* Data Processing
-
-### 🎈 Application Development
-
-* Streamlit Development
-* Interactive Dashboard Development
-* User Interface Design
-* Recommendation Engine Development
-
-### ☁️ Deployment & Version Control
-
-* GitHub Management
-* Git Version Control
-* Streamlit Cloud Deployment
+| Technology                       | Purpose                    |
+| -------------------------------- | -------------------------- |
+| 🐍 **Python**                    | Application Development    |
+| 🎈 **Streamlit**                 | Interactive Web Interface  |
+| 🐼 **Pandas**                    | Data Processing            |
+| 🔢 **NumPy**                     | Numerical Operations       |
+| 🤖 **Scikit-Learn**              | Machine Learning           |
+| 📊 **Cosine Similarity**         | Movie Similarity Detection |
+| 🧠 **Recommendation Systems**    | Personalized Suggestions   |
+| 🐙 **GitHub**                    | Version Control            |
+| ☁️ **Streamlit Community Cloud** | Deployment                 |
 
 ---
 
@@ -215,7 +176,7 @@ AI-Recommendation-Engine/
 
 ---
 
-## 🚀 How To Run
+## 🚀 How to Run Locally
 
 ### 1️⃣ Clone the Repository
 
@@ -229,19 +190,19 @@ git clone https://github.com/Tehminaanwar543/AI-Recommendation-Engine.git
 cd AI-Recommendation-Engine
 ```
 
-### 3️⃣ Install Requirements
+### 3️⃣ Install Dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 4️⃣ Run Streamlit
+### 4️⃣ Run the Streamlit Application
 
 ```bash
 python -m streamlit run app.py
 ```
 
-### 5️⃣ Open In Browser
+### 5️⃣ Open in Browser
 
 ```text
 http://localhost:8501
@@ -252,10 +213,13 @@ http://localhost:8501
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/">
+  <a href="https://ai-recommendation-engine-lg32mauwnpng3qqy9egxft.streamlit.app/">
     🚀 <b>Open AI Recommendation Engine</b>
   </a>
 </p>
+
+**Live Application:**
+https://ai-recommendation-engine-lg32mauwnpng3qqy9egxft.streamlit.app/
 
 The application is deployed using **Streamlit Community Cloud**.
 
@@ -263,17 +227,16 @@ The application is deployed using **Streamlit Community Cloud**.
 
 ## 🎯 Project Objectives
 
-* 🤖 Build a practical AI recommendation system
+* 🤖 Build a practical Machine Learning recommendation system
+* 🎬 Generate personalized movie recommendations
 * 🧠 Understand recommendation system concepts
-* 🎬 Implement content-based filtering
-* 🤝 Explore collaborative filtering
-* 🔥 Implement hybrid recommendation concepts
-* 🔍 Use cosine similarity for similar item detection
+* 🔍 Implement movie similarity detection
+* 📊 Apply Cosine Similarity
 * 👤 Analyze user preferences
-* 🎯 Generate personalized recommendations
-* 📊 Build an interactive Streamlit dashboard
+* ❤️ Use genre-based personalization
+* 🎈 Build an interactive Streamlit application
 * 🐍 Practice Machine Learning with Python
-* ☁️ Deploy the application online
+* ☁️ Deploy an AI application online
 
 ---
 
@@ -281,17 +244,17 @@ The application is deployed using **Streamlit Community Cloud**.
 
 Through this project, I gained practical experience in:
 
-* 🐍 **Python Development**
-* 🐼 **Data Processing**
-* 🤖 **Machine Learning**
-* 🧠 **Recommendation Systems**
-* 🔍 **Cosine Similarity**
-* 🎯 **Personalization**
-* 🤝 **Collaborative Filtering**
-* 🔥 **Hybrid Recommendation**
-* 🎈 **Streamlit Development**
-* 🐙 **GitHub**
-* ☁️ **Streamlit Deployment**
+* 🐍 Python Development
+* 🐼 Data Processing
+* 🤖 Machine Learning
+* 🧠 Recommendation Systems
+* 🔍 Cosine Similarity
+* 🎯 Personalization
+* 🤝 Collaborative Recommendation
+* 🔥 Hybrid Recommendation
+* 🎈 Streamlit Development
+* 🐙 GitHub & Git
+* ☁️ Streamlit Cloud Deployment
 
 ---
 
@@ -300,33 +263,34 @@ Through this project, I gained practical experience in:
 * 🤖 Deep Learning Recommendation Models
 * 🧠 Neural Collaborative Filtering
 * 👥 Advanced Collaborative Filtering
-* 🔥 Improved Hybrid Algorithms
+* 🔥 Improved Hybrid Recommendation Algorithms
 * 🎬 Larger Real-World Movie Dataset
 * ⭐ User Ratings and Reviews
 * 👤 Multiple User Profiles
 * 🔐 User Authentication
 * 📜 Permanent Recommendation History
 * 🎯 Advanced Personalization
-* 🔎 Search and Filter Features
+* 🔎 Movie Search and Filtering
 * 📱 Mobile-Friendly Interface
 
 ---
 
 ## 📚 Project Highlights
 
-| 🤖 Feature                 | 🎯 Description                        |
-| -------------------------- | ------------------------------------- |
-| 👤 User Profile            | User preference analysis              |
-| 🎬 Movie Recommendation    | Personalized movie suggestions        |
-| 🧠 Content-Based Filtering | Feature-based recommendations         |
-| 🤝 Collaborative Filtering | User preference-based recommendations |
-| 🔥 Hybrid Recommendation   | Combined recommendation approach      |
-| 🔍 Similar Item Detection  | Similar movie discovery               |
-| 📊 Cosine Similarity       | Movie similarity calculation          |
-| 📜 Recommendation History  | Save recommendations                  |
-| ⚡ Streamlit Dashboard      | Interactive web interface             |
-| ☁️ Cloud Deployment        | Online application deployment         |
-| 🎓 Internship Project      | InternGrow Task 4 - Week 4            |
+| 🤖 Feature                      | 🎯 Description                        |
+| ------------------------------- | ------------------------------------- |
+| 👤 User Profile                 | User preference analysis              |
+| 🎬 Movie Recommendation         | Personalized movie suggestions        |
+| ❤️ Genre Selection              | Favorite genre-based personalization  |
+| 🧠 Content-Based Filtering      | Feature-based recommendations         |
+| 🤝 Collaborative Recommendation | User-preference recommendation        |
+| 🔥 Hybrid Recommendation        | Combined recommendation approach      |
+| 🔍 Similar Movie Detection      | Similar movie discovery               |
+| 📊 Cosine Similarity            | Movie similarity calculation          |
+| 📜 Recommendation History       | Save generated recommendations        |
+| ⚡ Streamlit Dashboard           | Interactive web interface             |
+| ☁️ Cloud Deployment             | Online application deployment         |
+| 🎓 Internship Project           | **InternGrow AI Internship — Task 4** |
 
 ---
 
@@ -373,7 +337,7 @@ I am a **Bachelor of Science in Artificial Intelligence student** interested in 
 
 ### 🚀 Live Project
 
-<a href="https://ai-recommendation-engine-y7ptm7oeavn9hh9cfna2xq.streamlit.app/">
+<a href="https://ai-recommendation-engine-lg32mauwnpng3qqy9egxft.streamlit.app/">
   <b>AI Recommendation Engine</b>
 </a>
 
@@ -381,7 +345,7 @@ I am a **Bachelor of Science in Artificial Intelligence student** interested in 
 
 ## ⭐ Support
 
-If you found this project useful or interesting, please consider giving the repository a **⭐ Star on GitHub**.
+If you found this project useful or interesting, consider giving the repository a **⭐ Star on GitHub**.
 
 Your support is greatly appreciated! ❤️
 
@@ -392,5 +356,5 @@ Your support is greatly appreciated! ❤️
 </p>
 
 <p align="center">
-  © 2026 <b>Tehmina Anwar</b> | InternGrow Internship | Task 4 - Week 4
+  © 2026 <b>Tehmina Anwar</b> | InternGrow AI Internship | Task 4
 </p>
