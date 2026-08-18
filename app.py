@@ -1,6 +1,6 @@
 # ============================================================
 # Task 4 - AI Recommendation Engine
-# Internship: DecodeLabs
+# Internship: Interngrow AI
 # Developed by: Tehmina Anwar
 # ============================================================
 
@@ -112,7 +112,7 @@ st.markdown("""
 <h3>👩‍💻 Developed by Tehmina Anwar</h3>
 
 <p>
-🎓 <b>DecodeLabs Internship</b>
+🎓 <b>Interngrow AI Internship</b>
 &nbsp; | &nbsp;
 🚀 <b>Task 4 - Week 4</b>
 </p>
@@ -694,7 +694,7 @@ st.markdown(
     </p>
 
     <p>
-    🎓 DecodeLabs Internship • 🚀 Task 4 • Week 4
+    🎓 Interngrow AI Internship • 🚀 Task 4 • Week 4
     </p>
 
     <p>
